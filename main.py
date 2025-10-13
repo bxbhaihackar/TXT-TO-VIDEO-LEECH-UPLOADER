@@ -1,4 +1,4 @@
-# Don't Remove Credit Tg - https://t.me/roxybasicneedbot1
+# Don't Remove Credit Tg - https://t.me/roxybasicneedbot
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@roxybasicneedbot
 # Ask Doubt on telegram https://t.me/roxybasicneedbot1
 
@@ -59,7 +59,7 @@ def force_subscribe(func):
             is_sub = await is_subscribed(bot, message.from_user.id)
             if not is_sub:
                 keyboard = InlineKeyboardMarkup([
-                    [InlineKeyboardButton("🔔 Join Channel", url="https://t.me/roxybasicneedbot1")],
+                    [InlineKeyboardButton("🔔 Join Channel", url="https://t.me/Skyhdbot")],
                     [InlineKeyboardButton("🔄 Refresh", callback_data="refresh_sub")]
                 ])
                 await message.reply_text(
@@ -121,8 +121,8 @@ async def start(bot: Client, m: Message):
             InlineKeyboardButton("⚡ Upload Files", callback_data="upload_files")
         ],
         [
-            InlineKeyboardButton("🔔 Channel", url="https://t.me/roxybasicneedbot1"),
-            InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/roxycontactbot")
+            InlineKeyboardButton("🔔 Channel", url="https://t.me/Skyhd"),
+            InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/Skyhdbot")
         ]
     ])
     
