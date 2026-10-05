@@ -2,8 +2,8 @@
 
 from os import environ
 
-API_ID = int(environ.get("API_ID", "27433400"))
-API_HASH = environ.get("API_HASH", "1a286620de5ffe0a7d9b57e604293555")
+API_ID = int(environ.get("API_ID", "25334222"))
+API_HASH = environ.get("API_HASH", "c8ee66889518bd70403e36d54113f745")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 # Force Subscribe Configuration
